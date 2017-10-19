@@ -6,6 +6,7 @@
         @include('canvas::frontend.shared.partials.user-generated-css')
     </head>
     <body>
+        <home></home>
         @include('canvas::frontend.shared.partials.header')
         @yield('content')
         @yield('unique-js')
