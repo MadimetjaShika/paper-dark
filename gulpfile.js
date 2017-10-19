@@ -10,6 +10,9 @@ elixir(function (mix) {
     mix.sass('frontend/frontend.scss', assetsPath + 'css/');
     mix.sass('backend/backend.scss', assetsPath + 'css/');
 
+    // Copy JS Files
+    mix.js('resources/assets/js/app.js', 'js/');
+
     // Copy fonts
     mix.copy(['resources/assets/fonts', 'resources/assets/talvbansal/media-manager/fonts'], assetsPath + '/fonts');
 
