@@ -1,13 +1,13 @@
 {
-    "name": "cnvs/paper-dark",
-    "description": "Canvas Dark Theme",
-    "keywords": ["canvas", "theme", "dark"],
+    "name": "cnvs/vuetify-light",
+    "description": "Canvas Vuetify Light Theme",
+    "keywords": ["canvas", "theme", "vuetify"],
     "type": "canvas-theme",
     "license": "MIT",
     "authors": [
         {
-            "name": "Patrick Reid",
-            "email": "reliq@reliqarts.com"
+            "name": "Madimetja Shika",
+            "email": "madi@mjshika.xyz"
         }
     ],
     "require": {
@@ -15,7 +15,7 @@
     },
     "extra": {
         "canvas-theme": {
-            "title": "Paper Dark",
+            "title": "Vuetify Light",
             "directories": {
                 "public": "public",
                 "views": "resources/views"
